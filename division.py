@@ -1,4 +1,4 @@
-def division(n, m):
+def Division(n, m):
 	if n < m:
 		return 0
-	return 1 + division(n - m, m)
+	return 1 + Division(n - m, m)
